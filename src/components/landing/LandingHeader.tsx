@@ -63,7 +63,7 @@ export const LandingHeader: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-white shadow-md transition-all border-b border-slate-200">
+    <header className="fixed top-0 left-0 right-0 z-50 w-full bg-white shadow-md border-b border-slate-200">
       
       {/* 1. Super-Top Utility Bar (Padrão Grandes Redes Brasileiras) */}
       <div className="bg-slate-900 text-slate-300 text-[11px] py-1.5 px-4 sm:px-6 border-b border-slate-800">
@@ -323,11 +323,6 @@ export const LandingHeader: React.FC = () => {
                 <Zap className="w-3.5 h-3.5 fill-current" />
                 <span>COTAÇÃO DE LISTA EXPRESSA</span>
               </a>
-            </div>
-
-            {/* Location Reference */}
-            <div className="hidden lg:flex items-center gap-1 text-slate-500 text-[11px] font-medium">
-              <span>Planaltina-DF</span>
             </div>
 
           </nav>

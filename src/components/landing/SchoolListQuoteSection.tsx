@@ -57,7 +57,7 @@ export const SchoolListQuoteSection: React.FC = () => {
   };
 
   return (
-    <section id="lista-escolar" className="py-16 sm:py-24 bg-gradient-to-b from-white via-amber-50/30 to-white border-t border-slate-200/80 scroll-mt-12">
+    <section id="lista-escolar" className="py-16 sm:py-24 bg-gradient-to-b from-white via-amber-50/30 to-white border-t border-slate-200/80 scroll-mt-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         
         {/* Header */}

@@ -52,7 +52,7 @@ export const BenefitsSection: React.FC = () => {
   ];
 
   return (
-    <section id="beneficios" className="py-16 sm:py-24 bg-slate-50 border-t border-slate-200/80 scroll-mt-12">
+    <section id="beneficios" className="py-16 sm:py-24 bg-slate-50 border-t border-slate-200/80 scroll-mt-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         
         {/* Header */}

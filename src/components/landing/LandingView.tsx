@@ -23,7 +23,7 @@ export const LandingView: React.FC = () => {
       <LandingHeader />
 
       {/* Main Content */}
-      <main className="flex-1">
+      <main className="flex-1 pt-[135px] md:pt-[155px]">
         <HeroSection />
         <BrandCarouselSection />
         <SchoolListQuoteSection />
