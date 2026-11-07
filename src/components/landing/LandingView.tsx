@@ -1,6 +1,8 @@
 import React from 'react';
 import { LandingHeader } from './LandingHeader';
 import { HeroSection } from './HeroSection';
+import { BrandCarouselSection } from './BrandCarouselSection';
+import { SchoolListQuoteSection } from './SchoolListQuoteSection';
 import { CatalogSection } from './CatalogSection';
 import { PracticalSupportSection } from './PracticalSupportSection';
 import { RelationshipSection } from './RelationshipSection';
@@ -16,13 +18,15 @@ export const LandingView: React.FC = () => {
   const { whatsappModalProduct, setWhatsappModalProduct } = useApp();
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 selection:bg-brand-500 selection:text-white">
-      {/* Top Navigation */}
+    <div className="min-h-screen flex flex-col bg-slate-100/50 selection:bg-brand-500 selection:text-white">
+      {/* Top Navigation Bar with Mega Menu */}
       <LandingHeader />
 
       {/* Main Content */}
       <main className="flex-1">
         <HeroSection />
+        <BrandCarouselSection />
+        <SchoolListQuoteSection />
         <CatalogSection />
         <PracticalSupportSection />
         <RelationshipSection />
@@ -32,10 +36,10 @@ export const LandingView: React.FC = () => {
         <CtaBanner />
       </main>
 
-      {/* Footer with mandatory disclaimers */}
+      {/* Enterprise Footer with disclaimers */}
       <LandingFooter />
 
-      {/* Global WhatsApp Simulation Modal */}
+      {/* WhatsApp Inquiry Simulation Modal */}
       <WhatsAppSimulationModal
         product={whatsappModalProduct}
         onClose={() => setWhatsappModalProduct(null)}
