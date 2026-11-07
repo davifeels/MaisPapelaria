@@ -52,7 +52,7 @@ export const RelationshipSection: React.FC = () => {
   ];
 
   return (
-    <section id="relacionamento" className="py-16 sm:py-24 bg-white border-t border-slate-200/80 scroll-mt-40">
+    <section id="relacionamento" className="py-16 sm:py-24 bg-white border-t border-slate-200/80 scroll-mt-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         
         {/* Section Header */}

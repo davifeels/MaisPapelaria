@@ -73,7 +73,7 @@ export const CatalogSection: React.FC = () => {
   };
 
   return (
-    <section id="catalogo" className="py-16 sm:py-20 bg-slate-50 border-t border-slate-200 scroll-mt-40">
+    <section id="catalogo" className="py-16 sm:py-20 bg-slate-50 border-t border-slate-200 scroll-mt-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         
         {/* Section Header */}

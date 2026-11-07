@@ -45,7 +45,7 @@ export const PracticalSupportSection: React.FC = () => {
   ];
 
   return (
-    <section id="atendimento" className="py-16 sm:py-24 bg-slate-50 border-t border-slate-200/80 scroll-mt-40">
+    <section id="atendimento" className="py-16 sm:py-24 bg-slate-50 border-t border-slate-200/80 scroll-mt-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         
         {/* Section Header */}

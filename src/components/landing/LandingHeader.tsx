@@ -63,7 +63,7 @@ export const LandingHeader: React.FC = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 w-full bg-white shadow-md border-b border-slate-200">
+    <header className="relative z-40 w-full bg-white shadow-sm border-b border-slate-200">
       
       {/* 1. Super-Top Utility Bar (Padrão Grandes Redes Brasileiras) */}
       <div className="bg-slate-900 text-slate-300 text-[11px] py-1.5 px-4 sm:px-6 border-b border-slate-800">
