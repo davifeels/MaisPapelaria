@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Product } from '../../types';
 import { useApp } from '../../context/AppContext';
+import logoMaisPapelaria from '../../assets/logo';
 import { 
   X, 
   MessageCircle, 
@@ -71,7 +72,7 @@ Gostaria de verificar as opções de cores/modelos disponíveis para retirada na
           <div className="flex items-center gap-3">
             <div className="relative w-10 h-10 rounded-full overflow-hidden border border-white/30 bg-white p-0.5">
               <img 
-                src="/logo-mais-papelaria.png" 
+                src={logoMaisPapelaria} 
                 alt="Mais Papelaria" 
                 className="w-full h-full object-contain"
               />

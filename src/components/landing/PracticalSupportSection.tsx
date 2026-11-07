@@ -1,5 +1,6 @@
 import React from 'react';
 import { useApp } from '../../context/AppContext';
+import logoMaisPapelaria from '../../assets/logo';
 import { 
   Clock, 
   MapPin, 
@@ -113,7 +114,7 @@ export const PracticalSupportSection: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <div className="w-9 h-9 rounded-full bg-white p-0.5 border border-white/20">
                     <img 
-                      src="/logo-mais-papelaria.png" 
+                      src={logoMaisPapelaria} 
                       alt="Mais Papelaria" 
                       className="w-full h-full object-contain"
                     />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useApp } from '../../context/AppContext';
+import logoMaisPapelaria from '../../assets/logo';
 import { 
   MapPin, 
   Clock, 
@@ -76,7 +77,7 @@ export const LandingFooter: React.FC = () => {
             <div className="flex items-center gap-3">
               <div className="w-14 h-14 rounded-full overflow-hidden bg-white p-0.5 border border-white/20">
                 <img 
-                  src="/logo-mais-papelaria.png" 
+                  src={logoMaisPapelaria} 
                   alt="Mais Papelaria" 
                   className="w-full h-full object-contain"
                 />

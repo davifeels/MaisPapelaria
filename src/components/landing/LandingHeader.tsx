@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useApp } from '../../context/AppContext';
+import logoMaisPapelaria from '../../assets/logo';
 import { 
   MessageCircle, 
   LayoutDashboard, 
@@ -62,7 +63,7 @@ export const LandingHeader: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-white shadow-sm transition-all border-b border-slate-200">
+    <header className="sticky top-0 z-50 w-full bg-white shadow-md transition-all border-b border-slate-200">
       
       {/* 1. Super-Top Utility Bar (Padrão Grandes Redes Brasileiras) */}
       <div className="bg-slate-900 text-slate-300 text-[11px] py-1.5 px-4 sm:px-6 border-b border-slate-800">
@@ -108,11 +109,12 @@ export const LandingHeader: React.FC = () => {
           
           {/* Brand Logo & Tradition Badge */}
           <a href="#hero" className="flex items-center gap-3 group flex-shrink-0">
-            <div className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border-2 border-brand-500 shadow-sm bg-white p-0.5 group-hover:scale-105 transition-transform">
+            <div className="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border-2 border-brand-500 shadow-md bg-white p-0.5 group-hover:scale-105 transition-transform flex items-center justify-center">
               <img 
-                src="/logo-mais-papelaria.png" 
+                src={logoMaisPapelaria} 
                 alt="Mais Papelaria" 
                 className="w-full h-full object-contain"
+                loading="eager"
               />
             </div>
             <div className="flex flex-col">

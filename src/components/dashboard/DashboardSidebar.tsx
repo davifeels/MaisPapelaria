@@ -1,6 +1,7 @@
 import React from 'react';
 import { useApp } from '../../context/AppContext';
 import { DashboardTab } from '../../types';
+import logoMaisPapelaria from '../../assets/logo';
 import { 
   LayoutDashboard, 
   ShoppingBag, 
@@ -67,7 +68,7 @@ export const DashboardSidebar: React.FC<Props> = ({ mobileOpen, setMobileOpen })
             <div className="flex items-center gap-3">
               <div className="w-9 h-9 rounded-full bg-white p-0.5 border border-white/20 flex-shrink-0">
                 <img 
-                  src="/logo-mais-papelaria.png" 
+                  src={logoMaisPapelaria} 
                   alt="Mais Papelaria" 
                   className="w-full h-full object-contain"
                 />
